@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  header {
+    background-color: #002679;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-shadow: #ffffff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #002679;\
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1.5rem 1rem;
+    
+  }
+  
+  nav a:hover {
+    background-color: #002679;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #002679;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 760px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      padding: 1rem;
+    }
+  }
