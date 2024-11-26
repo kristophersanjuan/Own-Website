@@ -256,8 +256,9 @@ section{
     box-shadow: 0 0 40px #077b32;
 }
 
-@media (max-width:884px) {
+@media only screen and (max-width:884px) {
     nav .logo{
+        visibility:collapse;
         position: absolute;
         top: 16px;
         left: 15px;
@@ -295,8 +296,9 @@ section{
     }
 }
 
-@media (max-width:440px){
+@media only screen and (max-width:440px){
     .main-container .image{
+        visibility:collapse;
         width: 50%;
         height: 60%;
         margin-bottom: 0px;
