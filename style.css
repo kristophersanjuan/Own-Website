@@ -310,6 +310,12 @@ section{
         margin-top: 15px;
     }
 }
+@media only screen and (max-width: 414px){
+    .text {
+        visibility:collapse;
+    }
+    
+
 
 
 
